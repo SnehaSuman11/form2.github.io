@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h2>APPLICATION FORM</h2>
+    <div class="wrapper">
+    <div class="contact-form">
+    <form>
+        <div class="input-feild">
+        <table>
+            <tr>
+                <td>First Name :</td>
+                <td>Middle Name :</td>
+                <td>Last Name :</td>
+            </tr>
+            <tr>
+                <td class="name"><input type="text" name="fname" maxlength="10" placeholder="Enter your First Name" required ></td>
+                <td class="name"><input type="text" name="mname" maxlength="10" placeholder="Enter your Middle Name"></td>
+                <td class="name"><input type="text" name="lname" maxlength="15" placeholder="Enter your Last Name" required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Date of Birth :</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                    <input type="radio" name="gender">Others
+                </td>
+                <td><input type="date" name="dob" required></td>
+            </tr>
+            <tr>
+                <td>Email Id :</td>
+                <td>Phone Number :</td>
+            </tr>
+            <tr>
+                <td><input type="email" name="id" placeholder="Enter your Mail Id" required></td>
+                <td><input type="tel" name="Phone" placeholder="Enter your Phone Number" required></td>
+            </tr>
+            <tr>
+                <td>Skills</td>
+                <td>
+                    <input type="checkbox" name="skill">Java<br>
+                    <input type="checkbox" name="skill">HTML<br>
+                    <input type="checkbox" name="skill">CSS<br>
+                    <input type="checkbox" name="skill">Javascript<br>
+                    <input type="checkbox" name="skill">PHP
+                </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    <select>
+                        <option>select your city</option>
+                        <option>Aurangabad</option>
+                        <option>Pune</option>
+                        <option>Mumbai</option>
+                        <option>Nagpur</option>
+                        <option>Delhi</option>
+                        <option>Noida</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Experience</td>
+                <td><input type="number" name="ex" placeholder="Enter your Experience" required min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td>Month of Joining :</td>
+                <td><input type="month" name="month" required></td>
+            </tr>
+            <tr>
+                <td>Salary Expectation : </td>
+                <td><input type="range" name="salary" min="2L"  max="6L"></td>
+            </tr>
+            <tr>
+                <td>Please Provide Your Resume Link :</td>
+                <td><input type="url" name="link" placeholder="Enter your URL" required></td>
+            </tr>
+            <tr>
+                <td>Upload your Identity Proof :</td>
+                <td><input type="file" name="IP"></td>
+            </tr>
+        </table><br>
+        </div>
+        <input type="submit" value="Submit">
+        <input type="submit" formnovalidate value="Submit without Validation">
+        <input type="reset" value="Cancel">
+    </div>
+    </form>
+    </div>
+</body>
+</html>
