@@ -1,0 +1,88 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:aliceblue;
+    background-size: cover;
+    height: 500vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:navy;
+    font-size: 4vw;
+}
+.wrapper{
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+.contact-form{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    background:wheat;
+    display: grid;
+    box-shadow: 0 0 10px rgba(0,0,0,1.5);
+}
+.input-feild{
+    display: grid;
+    margin-right: 4%;
+
+}
+.input-feild{
+    width: 100%;
+}
+.input-feild table{
+    width: 100%;
+}
+.input-feild input{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    padding: 10px;
+    border-bottom: 2px solid #c5ecfd;
+}
+.input-feild td input[type="text"]{
+    width: 70%;
+    height: 10%;
+    padding: 10px;
+}
+.input-feild td{
+    font-style:oblique;
+    font-size: 100%;
+}
+.contact-form input[type="submit"]{
+    position: relative;
+    left: 20%;
+    width: 20%;
+    height: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color:slategray;
+    color: black;
+    font-size: 1vw;
+    cursor: pointer;
+}
+.contact-form input[type="reset"]{
+    position: relative;
+    width: 20%;
+    left: 20%;
+    height: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color:slategray;
+    color: black;
+    font-size: 1vw;
+    cursor: pointer;
+}
